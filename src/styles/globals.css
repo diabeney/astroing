@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Inter';
+    background-color: rgba(250, 250, 250, 0.986);
+    color: rgba(0, 0, 0, 0.781);
+    padding: 1rem;
+
+}
+
+p {
+    padding-block: 1rem;
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    padding-block: .5rem;
+}
+
+h1,h2, h3,h4 {
+    font-family: 'Space Grotesk';
+    color: blueviolet;
+    padding-block: 1rem;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
+
+
+}
+
+a:hover {
+    color: rgb(140, 0, 255);
+    text-decoration: underline;
+}
+
+
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+}
